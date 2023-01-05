@@ -40,6 +40,10 @@
         background-color: rgb(165, 118, 74);
         color: #fff;
         cursor: pointer;
+        &:hover{
+            background-color: rgb(104, 81, 60);
+            box-shadow: 1px 1px 0 0 rgb(80, 64, 50);
+        }
         &--hide{
             visibility: hidden;
         }
