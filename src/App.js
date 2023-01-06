@@ -4,6 +4,7 @@ import MoleImg from "./mole.png";
 import MoleHitImg from "./moleHit.png";
 import MoleAloraImg from "./moleAlora.png";
 import MoleAloraAngryImg from "./moleAloraAngry.png";
+import Hole from "./hole.png";
 
 function App() {
   //地鼠狀態
@@ -157,15 +158,17 @@ function App() {
       <section className="game__section">
         {moles.map((mole, idx) => (
           <div key={idx} className="game__item">
-            <div 
-              className={`mole ${mole.status==='show'?'mole--show':mole.status==='hit'?'mole--hit':''}`}
-              onClick={() => clickMole(idx)}
-            >
-              <img 
-                src={moleImgCheck(idx)} 
-                alt="地鼠" />
+            <div className="game__item__wrapper">
+              <div 
+                className={`mole ${mole.status==='show'?'mole--show':mole.status==='hit'?'mole--hit':''}`}
+                onClick={() => clickMole(idx)}
+              >
+                <img src={moleImgCheck(idx)} alt="地鼠" />
+              </div>
             </div>
-            <div className="hole"></div>
+            <div className="hole">
+              <img src={Hole} />
+            </div>
           </div>
         ))}
       </section>
