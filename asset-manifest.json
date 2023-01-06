@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/whack-a-mole__react/static/css/main.5c1dc859.css",
-    "main.js": "/whack-a-mole__react/static/js/main.bb795487.js",
+    "main.css": "/whack-a-mole__react/static/css/main.c97d6549.css",
+    "main.js": "/whack-a-mole__react/static/js/main.33dc9e5a.js",
     "static/media/moleHit.png": "/whack-a-mole__react/static/media/moleHit.7964ba3f0c12949d9708.png",
     "static/media/moleAloraAngry.png": "/whack-a-mole__react/static/media/moleAloraAngry.b590ee28b9bed4e34a80.png",
     "static/media/moleAlora.png": "/whack-a-mole__react/static/media/moleAlora.e5ae427e15ec8d379d4e.png",
     "static/media/mole.png": "/whack-a-mole__react/static/media/mole.a51f46dd25f4d3e7d5c0.png",
+    "static/media/hole.png": "/whack-a-mole__react/static/media/hole.081339084188c51909a0.png",
     "index.html": "/whack-a-mole__react/index.html",
-    "main.5c1dc859.css.map": "/whack-a-mole__react/static/css/main.5c1dc859.css.map",
-    "main.bb795487.js.map": "/whack-a-mole__react/static/js/main.bb795487.js.map"
+    "main.c97d6549.css.map": "/whack-a-mole__react/static/css/main.c97d6549.css.map",
+    "main.33dc9e5a.js.map": "/whack-a-mole__react/static/js/main.33dc9e5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c1dc859.css",
-    "static/js/main.bb795487.js"
+    "static/css/main.c97d6549.css",
+    "static/js/main.33dc9e5a.js"
   ]
 }
