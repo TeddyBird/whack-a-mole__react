@@ -47,6 +47,12 @@ function App() {
     }
   },[moles, gamePlay])
 
+  useEffect(() => {
+    if(gameTime === 0){
+      alert(`你得到了${score}分!!`);
+    }
+  },[gameTime])
+
   //地鼠停留時間
   function randomTime(min, max){
     return Math.floor(Math.random() * (max - min + 1) + min) * 300
@@ -167,7 +173,7 @@ function App() {
               </div>
             </div>
             <div className="hole">
-              <img src={Hole} />
+              <img src={Hole} alt="圖片"/>
             </div>
           </div>
         ))}
