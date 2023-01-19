@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/whack-a-mole__react/static/css/main.c97d6549.css",
-    "main.js": "/whack-a-mole__react/static/js/main.33dc9e5a.js",
+    "main.js": "/whack-a-mole__react/static/js/main.ccb7907f.js",
     "static/media/moleHit.png": "/whack-a-mole__react/static/media/moleHit.7964ba3f0c12949d9708.png",
     "static/media/moleAloraAngry.png": "/whack-a-mole__react/static/media/moleAloraAngry.b590ee28b9bed4e34a80.png",
     "static/media/moleAlora.png": "/whack-a-mole__react/static/media/moleAlora.e5ae427e15ec8d379d4e.png",
@@ -9,10 +9,10 @@
     "static/media/hole.png": "/whack-a-mole__react/static/media/hole.081339084188c51909a0.png",
     "index.html": "/whack-a-mole__react/index.html",
     "main.c97d6549.css.map": "/whack-a-mole__react/static/css/main.c97d6549.css.map",
-    "main.33dc9e5a.js.map": "/whack-a-mole__react/static/js/main.33dc9e5a.js.map"
+    "main.ccb7907f.js.map": "/whack-a-mole__react/static/js/main.ccb7907f.js.map"
   },
   "entrypoints": [
     "static/css/main.c97d6549.css",
-    "static/js/main.33dc9e5a.js"
+    "static/js/main.ccb7907f.js"
   ]
 }
